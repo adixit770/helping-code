@@ -1,0 +1,168 @@
+/* Table Top Css */
+.MuiBox-root.css-99a237 {
+  background: orangered;
+}
+
+/* SideNav Css */
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-1ioqvny-MuiPaper-root-MuiDrawer-paper {
+  margin: auto;
+  height: 100%;
+  border-radius: 0;
+  background: white;
+}
+
+/* SideBar ActiveLink  Color */
+.MuiBox-root.css-1x3v3vy {
+  background: orangered;
+  border-radius: 1;
+}
+
+/* SideBar Link Colors */
+span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-6cmau2-MuiTypography-root {
+  color: black;
+}
+
+/* SideNav Icon Color */
+span.material-icons-round.notranslate.MuiIcon-root.MuiIcon-fontSizeSmall.css-19llp29-MuiIcon-root {
+  color: black;
+}
+
+/* SideNavbar Icon */
+h6.MuiTypography-root.MuiTypography-button.css-tjjkat-MuiTypography-root {
+  color: black;
+}
+
+/* User Form Css */
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-fullWidth.MuiButtonBase-root.css-13tavyo-MuiButtonBase-root-MuiButton-root {
+  background: orangered;
+}
+
+/* Top GrapCards Color */
+.MuiBox-root.css-79or14 {
+  background: linear-gradient(195deg, #ff9800, #ff9800);
+}
+
+.MuiBox-root.css-1mc398b {
+  background: linear-gradient(195deg, #66bb6a, #43a047);
+}
+
+.MuiBox-root.css-bkvx7i {
+  background: linear-gradient(195deg, #9e9e9e, #7c7b7b);
+}
+
+/* Bottom GraphCards Colors */
+.MuiBox-root.css-1scr5li {
+  background: linear-gradient(195deg, #66bb6a, #43a047);
+}
+
+.MuiBox-root.css-1jolx3e {
+  background: linear-gradient(195deg, #ff9800, #ff9800);
+}
+
+.MuiBox-root.css-1is4x1g {
+  background: orangered;
+}
+
+/* Table Add Button */
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.css-1vqs9o7-MuiButtonBase-root-MuiButton-root {
+  color: white;
+  background: black;
+  position: relative;
+  left: 1.1rem;
+  border-radius: 0;
+}
+
+/* Modal UserForm */
+.MuiBox-root.css-1wnsr1i {
+  min-width: fit-content;
+}
+
+/* NavbarSide */
+span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-6cmau2-MuiTypography-root {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: inherit;
+  /* position: relative;
+    right: 26px; */
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeInherit.css-eimhud-MuiSvgIcon-root {
+  color: #000000;
+}
+
+/*  */
+/* SideNav For Font Alignment */
+li.MuiListItem-root.MuiListItem-padding.css-1l9osrx-MuiListItem-root {
+  margin-inline: 0rem;
+  margin-top: 1rem;
+}
+
+/* Sidenav For Box and Accordin alignment */
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
+  margin-inline: -1rem;
+  box-shadow: none;
+}
+
+/* Acitve Dropdown Class */
+.normal {
+  background: rgb(204, 204, 204);
+  color: rgb(253, 109, 109);
+}
+
+.active li div {
+  background: orangered !important;
+  text-transform: uppercase;
+}
+
+li.MuiListItem-root.MuiListItem-padding.css-1l9osrx-MuiListItem-root {
+  width: 12rem;
+  font-size: "1px";
+}
+
+span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-6cmau2-MuiTypography-root {
+  font-size: 1rem;
+}
+
+/* Table Icons */
+.MuiBox-root.css-ekdnj9 {
+  display: flex;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-1ioqvny-MuiPaper-root-MuiDrawer-paper {
+  height: 100%;
+  margin: 0rem;
+  width: 18%;
+  padding: 16px;
+  margin-top: 0rem;
+  border-radius: 0;
+  background: white;
+  margin-left: 0rem;
+}
+
+/* Yoga Bandhus Modal Css */
+
+.css-se4sg3 {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 0.02857em;
+  background-color: transparent;
+  padding: 8px;
+}
+
+/* Yoga Bandhus Table Css Add On Table Name Coulmn */
+.nameHover:Hover {
+  color: orangered;
+}
+
+
+
+/* Yoga Bandhus Loader  Positioning*/
+span.MuiCircularProgress-root.MuiCircularProgress-indeterminate.MuiCircularProgress-colorSuccess.css-1vozvry-MuiCircularProgress-root {
+  color: orangered;
+  position: relative;
+  top: 15rem;
+  left: 30rem;
+}

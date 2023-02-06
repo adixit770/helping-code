@@ -1,0 +1,12 @@
+
+.main1 {
+ max-width: 30%;
+  background: aquamarine;
+  height: auto;
+  text-align: center;
+}
+.main2 {
+  max-width: 70%;
+  background: aliceblue;
+  height: auto;
+}

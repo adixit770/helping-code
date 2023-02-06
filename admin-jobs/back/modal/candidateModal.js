@@ -1,0 +1,35 @@
+const mongoose = require("mongoose");
+const UserSchema = mongoose.Schema({
+  userName: String,
+  firstName: String,
+  lastName: String,
+  fullName: String,
+  email: String,
+  password: String,
+  mobile: String,
+  sector: String,
+  post: String,
+  profileSummary: String,
+  profileUrl: String,
+  education: String,
+  Experience: String,
+  address: String,
+  country: String,
+  state: String,
+  city: String,
+  pincode: Number,
+  location: String,
+  skills: String,
+  status: Boolean,
+  coverLetter: String,
+  bio: String,
+  expertise: String,
+  language: String,
+  honorsAwards: String,
+  resume: String,
+  profilePhoto: String,
+  salary: String,
+});
+const candidateModel = mongoose.model("candidate", UserSchema);
+
+module.exports = candidateModel;
