@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(45deg, #ffb300cc, #000000b0);
+}
+
+/* Add shadows to create the "card" effect */
+/* .card {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    transition: 0.6s;
+    margin: 25px;
+} */
+
+/* On mouse-over, add a deeper shadow */
+/* .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 162, 0);
+} */
+
+/* Add some padding inside the card container */
+/* .text-container {
+    padding: 2px 16px;
+    width: 15rem;
+} */
+/* 
+.card-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+} */
+
+/* h1 {
+    top: 8rem;
+    position: relative;
+    font-size: 70px;
+    font-family: fantasy;
+    letter-spacing: 30px;
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+} */

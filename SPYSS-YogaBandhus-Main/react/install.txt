@@ -1,0 +1,4 @@
+npm i bootstrap
+npm i bootstrap-css
+npm i bootstrap-icons
+npm i react-router

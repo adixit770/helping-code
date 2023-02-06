@@ -1,0 +1,46 @@
+struct std
+{
+int rollno;
+char name[20];
+};
+void main()
+{
+int i,j,n,f=0,s;
+struct std *p;
+clrscr();
+printf("enter the number");
+scanf("%d",&s);
+p=(struct std*)malloc(sizeof(struct std)*s);
+for(i=0;i<s;i++)
+{
+L:
+printf("enter the name :-");
+scanf("%s",&p[i].name);
+printf("enter the the roll number :-");
+scanf("%d",&p[i].rollno);
+
+for(j=0;j<i;j++)
+{
+if(p[i].rollno==p[j].rollno){
+printf("already exits");
+goto L;}
+ }
+ }
+printf("display student information\n");
+for(i=0;i<s;i++)
+printf("%s-%d\n",p[i].name,p[i].rollno);
+
+printf("enter the number");
+scanf("%d",&n);
+for(i=0;i<s;i++)
+{
+if(p[i].rollno==n)
+{
+f=1;
+printf("name:-%s rollno:-%d",p[i].name,p[i].rollno);
+}
+}
+if(f==0)
+printf("not found");
+getch();
+}

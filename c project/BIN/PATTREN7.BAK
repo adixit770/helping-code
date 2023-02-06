@@ -1,0 +1,16 @@
+ void main()
+{
+  int i,j,n;
+  clrscr();
+  printf("enter the number");
+  scanf("%d",&n);
+  for(i=n;i>=1;i--)
+    {
+      for(j=1;j<=n;j++)
+	{
+	  printf("%d",i);
+	}
+	  printf("\n");
+    }
+  getch();
+}

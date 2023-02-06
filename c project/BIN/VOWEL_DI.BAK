@@ -1,0 +1,38 @@
+void main()
+{
+char str[100];
+int i,vowels,consonant,digit,space,spc;
+clrscr();
+vowels=consonant=digit=space=spc=0;
+printf("enter the string\n");
+gets(str);
+for(i=0;i<strlen(str);i++)
+{
+if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u')
+{
+      ++vowels;
+      }
+
+else if(str[i]>='0'&&str[i]<='9')
+{
+	++digit;
+	}
+else if(str[i]>='a'&&str[i]<='z')
+{
+	++consonant;
+	}
+else if(str[i]==' ')
+{
+	++space;
+	}
+else if(str[i]>=33&&str[i]<=46)
+	spc++;
+	}
+	printf("vowels:%d\n",vowels);
+	printf("consonant:%d\n",consonant);
+	printf("digit:%d\n",digit);
+	printf("space:%d\n",space);
+	printf("special charactor:%d\n",spc);
+	getch();
+}
+

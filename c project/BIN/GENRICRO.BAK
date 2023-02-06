@@ -1,0 +1,24 @@
+int genricroot(n)
+{
+int reminder,sum=0;
+while(!=0)
+{
+reminder=%10;
+sum=sum+reminder;
+n=n/10;
+}
+if(s>9)
+
+return (s%10)+genricroot(s/10);
+else
+return s;
+}
+void main()
+{
+int n;
+clrscr();
+printf("enter the number");
+scanf("%d",&n);
+printf("%d is a genric root",genricroot(n));
+getch()
+}

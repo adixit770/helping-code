@@ -1,0 +1,58 @@
+
+/* header */
+.header {
+  color: #3d3d3d;
+  text-align: center;
+}
+.box {
+  margin: 35px auto;
+  background: #ffeed7;
+  width: 100%;
+  height: 12rem;
+  border-radius: 45px;
+  padding: 1rem;
+}
+
+/* footer */
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+  justify-content: space-between;
+  background: #fff;
+  color:#3d3d3d;
+  margin-left: -23rem;
+}
+.mainCard {
+  width: 90%;
+  padding: 10px;
+  margin-inline: auto;
+}
+.MuiButton-textPrimary.counterbutton{
+  background: dimgrey;
+  border-radius: 1rem;  
+}
+
+img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.css-1rorjgf-MuiCardMedia-root {
+  width: 30rem;
+  height: 14rem;
+}
+
+
+.input_tag {
+  padding: 1rem 3rem;
+  box-shadow: 3px 3px 3px 31px 13px lightgray;
+  margin: 1rem;
+  border: 1px soild;
+  border-radius: 3px;
+}
+
+.btn {
+  padding: 0.5rem 3rem;
+  background-color: lightblue;
+  border-radius: 0.5rem;
+  border-color: transparent;
+}
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  position: absolute;
+  left: 35rem;
+  top: 56px;
+}
+

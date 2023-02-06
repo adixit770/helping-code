@@ -1,0 +1,26 @@
+div#root {
+  position: absolute;
+  left: 39rem;
+}
+h1 {
+  
+  color: peru;
+  font-size: xxx-large;
+  font-family: cursive;
+}input[type="text"] {
+  width: 25rem;
+  height: 35px;
+  border-radius: 16px;
+  background: linear-gradient(45deg, #5fc2f1, #f48383);
+  margin-left: -6rem;
+ 
+}button {
+  width: 105px;
+  height: 40px;
+  border-radius: 16px;
+  background: linear-gradient(45deg, #4dc9f2, #f58c8c);
+ 
+}
+html {
+  background: cadetblue;
+}

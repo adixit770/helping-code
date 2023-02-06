@@ -1,0 +1,12 @@
+.main {
+    width: 30rem;
+    text-align: center;
+    background:darkgray;
+    position: absolute;
+    left: 38rem;
+    top: 18rem;
+}.button {
+    position: absolute;
+    left: 39rem;
+    top: 15rem;
+}

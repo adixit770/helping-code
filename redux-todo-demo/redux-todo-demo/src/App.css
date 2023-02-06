@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer {
+  margin-top: 2rem;
+  justify-content: space-around;
+  background: white;
+  color: "red" !important
+}
+
+h4.MuiTypography-root.MuiTypography-h4.css-5lbw0b-MuiTypography-root {
+  text-align: start;
+  padding: 1rem;
+  background: black;
+  color: white;
+  display: flex;
+  margin-inline: -2rem;
+  justify-content: center;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #ffffff;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #FFFFE3;
+  --bs-btn-active-border-color: #ffffff;
+  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #ffffff;
+  --bs-btn-disabled-border-color: #ffffff;
+}
+
+button.btn.btn-primary {
+  padding: 0rem;
+  width: 100%;
+}
+
+
+label[data-shrink=false]+.MuiInputBase-formControl .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+  width: 43rem;
+  background: linear-gradient(45deg, transparent, #00000094);
+}
+
+
+input#\:r1\: {
+  color: white;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+  text-decoration: none;
+  background-color: #fefeff;
+  color: black;
+  margin-left: 19px;
+}

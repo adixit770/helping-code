@@ -1,0 +1,91 @@
+.faceMocion {
+    display: none;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    background: white;
+    color: white;
+    position: absolute;
+    width: auto;
+    height:36px;
+    line-height: normal;
+    border-radius: 50px;
+    transition: 0.25sease-in-out;
+    color: black;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 4px 4px 21px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 21px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 21px -9px rgba(0, 0, 0, 0.75);
+}
+.faceMocion div {
+    margin-right: 5px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.faceMocion div:nth-child(8){
+    margin-right:0 ;
+}
+.selectorFace {
+    margin-right: 5px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.faceMocion div:hover {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+.molesto {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url(../images/emoji.png) 0 160px;
+}
+.asusta {
+    background: url(../images/emoji.png) 0 -21px;
+}
+.divierte {
+    background: url(../images/emoji.png) 0 -40px;
+}
+.gusta {
+    background: url(../images/emoji.png) 0 -60px;
+}
+.amo {
+    background: url(../images/emoji.png) 0 -80px;
+}
+.triste {
+    background: url(../images/emoji.png) 0 -101px;
+}
+.asombro {
+    background: url(../images/emoji.png) 0 -120px;
+}
+.alegre {
+    background: url(../images/emoji.png) 0 -300px;
+}
+.MensajeTexto {
+    display: none;
+    position: absolute;
+    border: 1px solid #333;
+    background-color: #161616;
+    border-radius: 5px;
+    padding: 3px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.IconoPequenio {
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}

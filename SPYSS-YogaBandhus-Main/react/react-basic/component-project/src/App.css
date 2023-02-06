@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(45deg, #62b04bc4, #272822bd);
+}
+
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionStatic.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background: linear-gradient(45deg, #4c8aff, #f0595c);
+}

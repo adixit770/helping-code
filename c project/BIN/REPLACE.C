@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+char str[100],n,c;
+char f=c;
+char r=n;
+int i;
+clrscr();
+printf("enter the string\n");
+gets(str);
+printf("enter charactor you want to change\n");
+scanf("%c",&c);
+printf("enter the new charactor\n");
+fflush(stdin);
+scanf("%c",&n);
+for(i=0;i<strlen(str);i++)
+{
+if(c==str[i])
+{
+   str[i]=n;
+   }
+   }
+   printf("%s",str);
+   getch();
+   }

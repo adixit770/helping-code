@@ -1,0 +1,20 @@
+[
+    {"value":"1" , "type":"oprend"},
+   {"value":"2" , "type":"oprend"},
+    {"value":"3" , "type":"oprend"},
+    {"value":"+" , "type":"operator"},
+    {"value":"4" , "type":"oprend"},
+    {"value":"5" , "type":"oprend"},
+    {"value":"6" , "type":"oprend"},
+    {"value":"-" , "type":"operator"},
+    {"value":"7" , "type":"oprend"},
+    {"value":"8" , "type":"oprend"},
+    {"value":"9" , "type":"oprend"},
+    {"value":"*" , "type":"operator"},
+    {"value":"c" , "type":"clear"},
+    {"value":"0" , "type":"oprend"},
+    {"value":"=" , "type":"equal"},
+    {"value":"/" , "type":"operator"}
+   
+]
+

@@ -1,0 +1,16 @@
+{
+  "name": "learnnpm",
+  "version": "1.0.0",
+  "description": "mernClass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dollop",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "chalk": "^4.1.2",
+    "validator": "^13.7.0"
+  }
+}

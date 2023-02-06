@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+img {
+  width: "1012px";
+}
+
+.slick-slide img {
+  display: inline !important;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+  background: linear-gradient(45deg, black, #a2672b);
+}
+
+h3 {
+  color: lightgoldenrodyellow;
+  
+}
+
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background: white;
+  color: black;
+  background: white;
+}
+
+.css-79ws1d-MuiModal-root {
+  position: fixed;
+  z-index: 1300;
+  right: 0;
+  bottom: 0;
+  padding-top: 2.5rem;
+  text-align: center;
+  color: aliceblue;
+  top: 12% !important;
+  background: linear-gradient(221deg, #7d551a, #00e6ff80);
+  width: 50%;
+  left: 23.5% !important;
+  height: 50% !important;
+}
+
+.css-ix1f03-MuiTypography-root {
+  margin: 12rem !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: 1rem !important;
+  line-height: 0.5 !important;
+  color: black !important;
+  letter-spacing: 0.00938em !important;
+  margin-top: 20px !important;
+}
+
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  color: black;
+  background: white;
+  font-weight: bolder;
+}
+.cards {
+  margin: auto;
+  width: 100%;
+  height: 33.5rem;
+  background: white;
+  margin-top: 6rem;
+}
+button.slick-arrow.slick-next {
+  display: block;
+  margin-inline: 8rem;
+}
+.slick-prev:before {
+    content: '←';
+    margin-inline: 8rem;
+}
+p#modal-modal-description {
+  text-align: left;
+}

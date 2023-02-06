@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>validation</title>
+	<style >
+		.error_msg
+		{
+			color: #ff0000;
+		}
+	
+	/*body
+		{
+			background: url(D:/wallpaper/mclaren_720s_gt3x_2021_4k_8k_hd_cars.jpg);
+		    background-repeat: no-repeat;
+            background-size: 100% 50rem;
+		}*/
+		
+		.main
+		{    
+			font-weight: 600;
+			font-size: 25px;
+			color: black;
+ 		    margin-inline: 34rem;
+    		margin-top: 9rem;
+    		padding-top: 19px;
+    		padding-left: 24px;
+}
+#submit{
+         width: 8rem;
+         height: 3rem;
+         font-size: 1rem;
+         font-weight: bolder;
+         color: black;
+         background: white;
+}
+#submit:hover{
+         width: 8rem;
+         height: 4rem;
+         font-size: 1rem;
+         font-weight: bolder;
+         color: black;
+         background: darkgoldenrod;
+}	
+	</style>
+</head>
+<body>
+
+
+	
+	<div class="main">
+
+		<form method="post" action="dosignup.php"> 
+		NAME : <input type="text" id="name" placeholder="name"><br>
+			<span class=" error_msg" id="name_error"></span><br>
+
+			City : <select id="city" placeholder="city">
+				<option value="">select city</option>
+				<option value="BHOPAL">BHOPAL</option>
+				<option value="INDORE">INDORE</option>
+				<option value="GWALIOR">GWALIOR</option>
+
+					</select> <br>
+					<span class=" error_msg" id="city_error"></span><br>
+					
+				Bike:<br>	<input type="checkbox" id="bike" name="vehicle1" value="bike">
+  						<label for="vehicle1"> i have a bike</label><br>
+  						
+  			
+  						<span class="error_msg" id="bike_error"></span><br>
+  						Email :
+  								<input type="email" id="email" name="email" placeholder="email"><br>
+  								<span class=" error_msg" id="email_error"></span><br>
+
+  					password : <input type="password" name="password" placeholder="password"><br><br>
+  					confirm-password :<input type="password" name="confirm-password" placeholder="confirm-password"><br><br>	
+  					<span class=" password_msg" id="password_error"></span><br>	
+
+
+
+  						<input id="submit" type="submit" name="submit" value="Submit" onclick="return validation()"><br><br>
+
+
+		</form>
+	</div>
+
+</body>
+<script >
+
+  
+function validation() 
+{
+	var email=document.getElementById('email').value;
+	var bike = document.getElementById('bike');
+	var name=document.getElementById('name').value;
+	var city=document.getElementById('city').value;
+	var temp=true;	
+	
+
+	
+
+
+
+
+
+
+
+	if(name==""&&city==""&&bike.checked==0&&email=="")
+	{
+		document.getElementById('name_error').innerText="name is empty"
+		document.getElementById('city_error').innerText="city not selected"
+		document.getElementById('bike_error').innerText="checkbox is empty"
+		document.getElementById('email_error').innerText="invalid email address"
+		temp=false;
+		return temp;
+		}
+
+	
+	else if(name!=""&&city==""&&bike.checked==0&&email=="")
+	{
+		document.getElementById('city_error').innerText="city not selected"
+		document.getElementById('bike_error').innerText="checkbox is empty"
+		document.getElementById('email_error').innerText="invalid email address"
+		temp=false;
+		return temp;
+	}
+	else if(name==""&&city!=""&&bike.checked==0&&email=="")
+	{
+		document.getElementById('name_error').innerText="name is empty"
+		document.getElementById('bike_error').innerText="checkbox is empty"
+		document.getElementById('email_error').innerText="invalid email address"
+		temp=false;
+		return temp;
+	}
+	else if(name==""&&city==""&&bike.checked!=0&&email=="")
+	{
+		document.getElementById('name_error').innerText="name is empty"
+		document.getElementById('city_error').innerText="city not selected"
+		document.getElementById('email_error').innerText="invalid email address"
+		temp=false;
+		return temp;
+	}
+	else if(name==""&&city==""&&bike.checked==0&&email!="")
+	{
+		document.getElementById('name_error').innerText="name is empty"
+		document.getElementById('city_error').innerText="city not selected"
+		document.getElementById('bike_error').innerText="checkbox is empty"
+
+		temp=false;
+		return temp;
+	}
+	else if(name==""&&city==""&&bike.checked!=0&&email!="")
+	{ 
+		document.getElementById('name_error').innerText="name is empty"
+		document.getElementById('city_error').innerText="city not selected"
+		
+
+		temp=false;
+		return temp;
+	}
+	else if(name==""&&city!=""&&bike.checked==0&&email!="")
+	{ 
+		document.getElementById('name_error').innerText="name is empty"
+		document.getElementById('bike_error').innerText="checkbox is empty"
+		
+
+		temp=false;
+		return temp;
+	}
+	else if(name!=""&&city==""&&bike.checked==0&&email!="")
+	{ 
+		document.getElementById('city_error').innerText="city not selected"
+		document.getElementById('bike_error').innerText="checkbox is empty"
+		
+
+		temp=false;
+		return temp;
+	}
+
+        else if(name==""&&city!=""&&bike.checked!=0&&email=="")
+	{ 
+		document.getElementById('email_error').innerText="invalid email address"
+		document.getElementById('name_error').innerText="name is empty"
+		
+
+		temp=false;
+		return temp;
+	}
+	else if(name!=""&&city==""&&bike.checked!=0&&email=="")
+	{ 
+		document.getElementById('city_error').innerText="city not selected"
+		document.getElementById('email_error').innerText="invalid email address"
+		
+
+		temp=false;
+		return temp;
+	}
+	else if(name!=""&&city!=""&&bike.checked==0&&email=="")
+	{ 
+		document.getElementById('email_error').innerText="invalid email address"
+		document.getElementById('bike_error').innerText="checkbox is empty"
+		
+
+		temp=false;
+		return temp;
+	}
+	else if(name!=""&&city!=""&&bike.checked!=0&&email=="")
+	{
+		
+		document.getElementById('email_error').innerText="invalid email address"
+		temp=false;
+		return temp;
+	}
+else if(name!=""&&city!=""&&bike.checked==0&&email!="")
+	{
+		
+		document.getElementById('bike_error').innerText="checkbox is empty"
+		temp=false;
+		return temp;
+	}
+	else if(name!=""&&city==""&&bike.checked!=0&&email!="")
+	{
+		
+		document.getElementById('city_error').innerText="city not selected"
+		temp=false;
+		return temp;
+	}
+	else if(name=""&&city!=""&&bike.checked!=0&&email!="")
+	{
+		
+		document.getElementById('email_error').innerText="invalid email address"
+		temp=false;
+		return temp;
+	}
+	   
+
+	
+	
+	else
+		return temp;
+}
+
+
+
+
+
+</script>
+</html>

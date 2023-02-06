@@ -1,0 +1,20 @@
+void main()
+{
+char str[80];
+int j,i,count=0;
+clrscr();
+
+printf("enter the string\n");
+gets(str);
+
+for(i=0;i<strlen(str);i++){
+//if(str[i]==' ')
+for(j=i;j<strlen(str);j++)
+{ if(str[i]==' ')
+count++;
+str[j]=count;
+}
+}
+printf("%s",str[j]);
+getch();
+}
