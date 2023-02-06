@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Free Trial",
+    "date": "7 Days",
+    "price": "$45/Months",
+    "list": [
+      "-View unlimited photo's",
+      "-See who viewed your profile",
+      "-Geo search",
+      "-Limited interaction with purchase of digital coins"
+    ],
+    "button":"Start Free Trial"
+  },
+  {
+    "title": "Bronze Star",
+    "date": "6 months",
+    "list": [
+      "-View unlimited photo's",
+      "-Unlimited messaging",
+      "-See who viewed your profile",
+      "-Geo search",
+      "-Detailed astrologicalprofile"
+    ],
+    "button":"$210.00 + Tax"
+  },
+  {
+    "title": "Silver Star",
+    "date": "9 months",
+    "list": [
+      "-View unlimited photo's",
+      "-Unlimited messaging",
+      "-See who viewed your profile",
+      "-Geo search",
+      "-Detailed astrological profile"
+    ],
+    "button":"$270.00 + Tax"
+  },
+  {
+    "title": "Gold Star",
+    "date": "12 months",
+    "list": [
+        "-View unlimited photo's",
+        "-Unlimited messaging",
+        "-See who viewed your profile",
+        "-Geo search",
+        "-Detailed astrological profile"
+      ],
+    "button":"$300.00 + Tax"
+  },
+  {
+    "title": "Platinum Star",
+    "date": "18 months",
+    "list": [
+        "-View unlimited photo's",
+        "-Unlimited messaging",
+        "-See who viewed your profile",
+        "-Geo search",
+        "-Detailed astrological profile"
+      ],
+    "button":"$360.00 + Tax"
+  },
+  {
+    "title": "Coins",    
+    "list": [
+        "10 Coin -> $3.99",
+        "20 Coin -> $6.99",
+        "50 Coin -> $9.99"       
+      ],
+    "button":"Buy Coins"
+  }
+]

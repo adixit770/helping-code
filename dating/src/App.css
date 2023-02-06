@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  text-align: initial;
+  margin: 22px auto;
+  max-width: 15rem;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

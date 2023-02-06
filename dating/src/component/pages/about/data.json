@@ -1,0 +1,252 @@
+[
+  {
+    "title": "What are your interests?",
+    "imgs": "assets/anna.png",
+    "option": [
+      {
+        "name": "Reading",
+        "status": false
+      },
+      {
+        "name": "Writing",
+        "status": false
+      },
+      {
+        "name": "Sports",
+        "status": false
+      },
+      {
+        "name": "Hiking",
+        "status": false
+      },
+      {
+        "name": "Cooking",
+        "status": false
+      },
+      {
+        "name": "Singing",
+        "status": false
+      },
+      {
+        "name": "Travelling",
+        "status": false
+      },
+      {
+        "name": "Garadening",
+        "status": false
+      },
+      {
+        "name": "Socializing",
+        "status": false
+      },
+      {
+        "name": "Riding",
+        "status": false
+      },
+      {
+        "name": "Movies",
+        "status": false
+      },
+      {
+        "name": "Music",
+        "status": false
+      },
+      {
+        "name": "Pets",
+        "status": false
+      },
+      {
+        "name": "Meditation",
+        "status": false
+      },
+      {
+        "name": "Running",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr 1fr 1fr 1fr"
+  },
+  {
+    "title": "What kind of relationship are you looking for?",
+    "imgs": "assets/trinity.png",
+    "option": [
+      {
+        "name": "Friendship",
+        "status": false
+      },
+      {
+        "name": "Dating",
+        "status": false
+      },
+      {
+        "name": "Marriage",
+        "status": false
+      }
+    ],
+    "col": "1fr  1fr 1fr"
+  },
+  {
+    "title": "What's your relationship status?",
+    "imgs": "assets/pavel.png",
+    "option": [
+      {
+        "name": "Singel",
+        "status": false
+      },
+      {
+        "name": "Divorced",
+        "status": false
+      },
+      {
+        "name": "Widow",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr 1fr"
+  },
+  {
+    "title": "Do you have kids?",
+    "imgs": "assets/alexander.png",
+    "option": [
+      {
+        "name": "Yes",
+        "status": false
+      },
+      {
+        "name": "No",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr"
+  },
+  {
+    "title": "Do you want children?",
+    "imgs": "assets/hamiti.png",
+    "option": [
+      {
+        "name": "Yes",
+        "status": false
+      },
+      {
+        "name": "No",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr"
+  },
+  {
+    "title": "How tall are you?",
+    "imgs": "assets/height2.png",
+    "option": [
+      {
+        "name": "Feet",
+        "status": false
+      },
+      {
+        "name": "Inch",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr"
+  },
+  {
+    "title": "What's your education?",
+    "imgs": "assets/gepp.png",
+    "option": [
+      {
+        "name": "High School",
+        "status": false
+      },
+      {
+        "name": "Bachelor's",
+        "status": false
+      },
+      {
+        "name": "Master's",
+        "status": false
+      },
+      {
+        "name": "Phd",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr 1fr"
+  },
+  {
+    "title": "What ethnicity describes you?",
+    "imgs": "assets/keira.png",
+    "option": [
+      {
+        "name": "Asian",
+        "status": false
+      },
+      {
+        "name": "Black",
+        "status": false
+      },
+      {
+        "name": "Hispanic",
+        "status": false
+      },
+      {
+        "name": "Indian",
+        "status": false
+      },
+      {
+        "name": "White",
+        "status": false
+      },
+      {
+        "name": "North American",
+        "status": false
+      },
+      {
+        "name": "Middel Eastern",
+        "status": false
+      },
+      {
+        "name": "Other",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr 1fr 1fr"
+  },
+  {
+    "title": "Do you Drink ?",
+    "imgs": "assets/markus.png",
+    "option": [
+      {
+        "name": "Yes",
+        "status": false
+      },
+      {
+        "name": "No",
+        "status": false
+      },
+      {
+        "name": "Occasionally",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr 1fr"
+  },
+  {
+    "title": "Do you smoke ?",
+    "imgs": "assets/irina.png",
+    "option": [
+      {
+        "name": "Yes",
+        "status": false
+      },
+      {
+        "name": "No",
+        "status": false
+      },
+      {
+        "name": "Occasionally",
+        "status": false
+      }
+    ],
+    "col": "1fr 1fr 1fr"
+  }
+]
